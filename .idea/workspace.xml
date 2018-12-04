@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4d9ba7b-09f9-4398-a33f-25697d17253b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/stringUtil/reverse_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HelloWorld/src/main/hello.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HelloWorld/src/main/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/hello.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello/hello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverseHello/reverseHello.go" beforeDir="false" afterPath="$PROJECT_DIR$/reverseHello/reverseHello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/stringutil.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/stringutil.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reverseHello/reverseHello.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="e#22#52#0" expanded="true" />
               </folding>
@@ -38,16 +36,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/stringutil.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stringUtil/reverse_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="170">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stringUtil/stringutil.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
@@ -56,9 +70,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/util/stringutil.go" />
         <option value="$PROJECT_DIR$/hello/hello.go" />
+        <option value="$PROJECT_DIR$/util/stringutil.go" />
         <option value="$PROJECT_DIR$/reverseHello/reverseHello.go" />
+        <option value="$PROJECT_DIR$/stringUtil/reverse_test.go" />
       </list>
     </option>
   </component>
@@ -94,7 +109,7 @@
             <path>
               <item name="GoStuffs" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoStuffs" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="stringUtil" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -104,6 +119,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
@@ -122,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build reverseHello.go">
+  <component name="RunManager" selected="Go Test.reverse_test.go">
     <configuration name="go build GoStuffs/hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStuffs" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -150,8 +166,19 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="reverse_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoStuffs" />
+      <working_directory value="$PROJECT_DIR$/stringUtil" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="GoStuffs" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/stringUtil/reverse_test.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.reverse_test.go" />
         <item itemvalue="Go Build.go build reverseHello.go" />
         <item itemvalue="Go Build.go build hello.go" />
         <item itemvalue="Go Build.go build GoStuffs/hello" />
@@ -187,13 +214,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util/stringutil.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello/hello.go">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -201,13 +221,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stringUtil/stringutil.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/reverseHello/reverseHello.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#22#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stringUtil/reverse_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
