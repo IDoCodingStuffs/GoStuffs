@@ -1,10 +1,10 @@
-package reverseHello
+package main
 
 import (
 	"fmt"
-	"main/util"
+	"GoStuffs/stringUtil"
 )
 
 func main() {
-	fmt.Println(stringutil.Reverse("!oG ,olleH"))
+	fmt.Println(stringUtil.Reverse("!oG ,olleH"))
 }
