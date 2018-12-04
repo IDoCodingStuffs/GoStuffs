@@ -3,12 +3,6 @@ package main
 import "fmt"
 
 var (
-	foo string
-	bar int
-	baz float32
-)
-
-var (
 	foo2, bar2 string
 )
 
